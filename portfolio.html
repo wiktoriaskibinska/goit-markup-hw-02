@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="index.html">WebStudio</a>
-      <nav>
+      <section >
+        <nav>
+          <a href="WebStudio">WebStudio</a>
+          <ul>
+            <li><a href="">Agencja</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="">Kontakt</a></li>
+          </ul>
+        </nav>
         <ul>
-          <li><a href="">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="">Kontakt</a></li>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com </a></li>
+          <li><a href="tel:+48111111111">+48111111111</a></li>
         </ul>
-      </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com </a>
-      <a href="tel:+48111111111">+48111111111</a>
+      </section>
     </header>
 
     <main>
-      <section class="buttons">
+      <section >
         <ul>
-          <li><button type="button">Wszystkie</button></li>
+          <li>
+            <button type="button" ">Wszystkie</button>
+          </li>
           <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
+          <li>
+            <button type="button" >Aplikacje</button>
+          </li>
           <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li>
+            <button type="button" >Marketing</button>
+          </li>
         </ul>
       </section>
       <section class="portfolio">
@@ -51,7 +68,7 @@
               <img
                 src="images/neworleanvsgoldenstar.jpg"
                 alt="Grafika New Orlean vs Golden Stare"
-               width="370"
+                width="370"
                 height="294"
               />
               <figcaption>
@@ -65,10 +82,10 @@
               <img
                 src="images/seafoodrest.jpg"
                 alt="Restauracja Seafood"
-               width="370"
+                width="370"
                 height="294"
-                >
-                <figcaption>
+              />
+              <figcaption>
                 <h3>Restauracja Seafood</h3>
                 <p>Aplikacja</p>
               </figcaption>
@@ -79,7 +96,7 @@
               <img
                 src="images/projectprime.jpg"
                 alt="Projekt Prime"
-               width="370"
+                width="370"
                 height="294"
               />
               <figcaption>
@@ -93,7 +110,7 @@
               <img
                 src="images/projectboxes.jpg"
                 alt="Projekt Boxes"
-              width="370"
+                width="370"
                 height="294"
               />
               <figcaption>
@@ -107,7 +124,7 @@
               <img
                 src="images/inspirationhasnoborders.jpg"
                 alt="Kobieta w marynarce"
-               width="370"
+                width="370"
                 height="294"
               />
               <figcaption>
@@ -135,7 +152,7 @@
               <img
                 src="images/projectlab.jpg"
                 alt="Projekt LAB"
-               width="370"
+                width="370"
                 height="294"
               />
               <figcaption>
@@ -149,7 +166,7 @@
               <img
                 src="images/growingbusiness.jpg"
                 alt="Growing business"
-               width="370"
+                width="370"
                 height="294"
               />
               <figcaption>
@@ -165,9 +182,11 @@
     <footer>
       <h2>WebStudio</h2>
       <address>
-        m. Warszawa, Aleje Jerozolimskie 21 <br />
-        info@example.com <br />
-        +48 111 111 111
+        <ul>
+          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li>info@example.com</li>
+          <li>+48 111 111 111</li>
+        </ul>
       </address>
     </footer>
   </body>
