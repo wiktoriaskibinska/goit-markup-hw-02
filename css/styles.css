@@ -1,5 +1,17 @@
+:root {
+  --primary-fonts: "Roboto", sans-serif;
+  --logo-fonts: "Raleway", sans-serif;
+  --color-one: #2196f3;
+  --color-two: #212121;
+  --color-three: #757575;
+  --color-four: #ffffff;
+  --color-five: #f5f4fa;
+  --color-six: #2f303a;
+ --color-seven:#000000;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--color-seven);
+  background-color: var(--color-four);
 }
