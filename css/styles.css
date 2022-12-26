@@ -19,6 +19,9 @@ body {
 }
 
 /*header styles*/
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header_logo {
   font-family: var(--logo-fonts);
   font-weight: 700;
@@ -149,6 +152,7 @@ body {
 }
 .footer-localisation {
   color: var(--color-four);
+
 }
 
 .footer_link:hover {
@@ -156,6 +160,7 @@ body {
   cursor: pointer;
 }
 /*portfolio.html*/
+
 .filters,
 .portfolio_list {
   list-style: none;
@@ -175,4 +180,18 @@ body {
   color: var(--color-four);
   background-color: var(--color-one);
   cursor: pointer;
+}
+.portfolio_item {
+  border: 1px solid #eeeeee;
+}
+.portfolio_tittle {
+  color: var(--color-two);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6%;
+}
+.portfolio_text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-three);
 }
