@@ -27,6 +27,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   color: var(--color-two);
+  line-height: 1.38;
 }
 .logo_first_part {
   color: var(--color-one);
@@ -44,6 +45,7 @@ body {
   color: var(--color-two);
   font-weight: 500;
   cursor: pointer;
+  line-height: 1.17;
 }
 
 .header_menu_link:hover,
@@ -66,6 +68,7 @@ body {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+
 }
 
 .headline_button {
@@ -77,6 +80,7 @@ body {
   height: 50px;
   border-radius: 4px;
   border: none;
+  line-height:1.88 ;
 }
 .headline_button:hover {
   cursor: pointer;
@@ -88,16 +92,19 @@ body {
 .describtion_head {
   color: var(--color-two);
   font-weight: 700;
+  line-height: 1.17;
 }
 .describtion_text {
   color: var(--color-three);
   font-weight: 400;
+  line-height:1.71 ;
 }
 /*what we do*/
 .what-we-do_tittle {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
+  line-height: 1.17;
 }
 .what-we-do_list {
   list-style: none;
@@ -110,6 +117,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
+  line-height: 1.17;
 }
 .ourteam_list {
   list-style: none;
@@ -120,11 +128,13 @@ body {
 .ourteam_subtittle {
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.17;
 }
 .ourteam_text {
   font-weight: 500;
   font-size: 16px;
   color: var(--color-three);
+  line-height: 1.17;
 }
 /*footer*/
 .footer {
@@ -135,6 +145,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   color: var(--color-four);
+  line-height: 1.17;
 }
 
 .footer_list {
@@ -149,6 +160,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-style: normal;
+  line-height: 1.17;
 }
 .footer-localisation {
   color: var(--color-four);
@@ -175,6 +187,7 @@ body {
   font-weight: 500;
   height: 38px;
   font-family: var(--primary-fonts);
+  line-height: 1.625;
 }
 .filters_button:hover {
   color: var(--color-four);
@@ -189,9 +202,11 @@ body {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 6%;
+  line-height: 2;
 }
 .portfolio_text {
   font-size: 16px;
   font-weight: 400;
   color: var(--color-three);
+  line-height: 1.87;
 }
